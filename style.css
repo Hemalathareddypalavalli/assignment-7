@@ -1,0 +1,118 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 18px 18px 33px #b1b1b1, -18px -18px 33px #ffffff;
+}
+
+.food {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.center {
+  text-align: center;
+  color: darkblue;
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: inset 7px -10px 25px 5px rgba(91, 91, 91, 0.63),
+    inset -12px 20px 25px -11px rgba(96, 96, 96, 1);
+}
+
+.start{
+  width: 92%;
+  margin-left: 4%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #17d6d9, #70a5d1);
+  box-shadow: 18px 18px 33px #b3a0a0, -18px -18px 33px #ffffff;
+}
+.food-card {
+  width: 350px;
+  border-radius: 13px;
+  background: rgb(245, 0, 0);
+  background: linear-gradient(
+    162deg,
+    rgba(245, 0, 0, 1) 23%,
+    rgba(255, 178, 44, 1) 100%
+  );
+  margin: 15px;
+  margin-top: -10px;
+}
+
+.card {
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.imag {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.pizaa {
+  position: absolute;
+  top: 0;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: large;
+  margin: 15px auto;
+  border: none;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: rgb(255, 255, 255);
+  padding: 5px 20px;
+}
+
+.txt {
+  color: rgb(255, 217, 0);
+  margin: 10px;
+  font-size: large;
+}
+
+.txt1 {
+  margin: 10px;
+  margin-top: 13px;
+}
+
+.txt2 {
+  margin: 15px;
+  margin-top: -5px;
+}
+
+.imgg {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.pic {
+  display: flex;
+  margin: 10px;
+  margin-bottom: -5px;
+}
+
+.name {
+  margin: 5px;
+  margin-top: -12px;
+  margin-left: 12px;
+}
+
+.followers {
+  margin-top: -22px;
+  color: #005d6f;
+}
